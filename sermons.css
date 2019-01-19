@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to left top, rgba(255, 166, 0, 0.51), rgba(131, 82, 9, 0.762)) fixed;
+  
+  }
+  
+body img{
+    border:1.3px solid rgb(90, 84, 84);
+}
+
+
+
+.BGP{
+    position:absolute;
+    z-index:-1;
+    opacity:.45;
+    top:18%;
+    left:0;
+    border:none;
+}
+
+
+nav a {text-decoration:none; opacity:.8; color:rgb(136, 118, 18); padding:20px 20px 10px 20px; border-radius:15px;}
+nav a:hover {font-weight:bold; opacity:1; background:rgb(23, 102, 129);}
+nav .NavGrid {display:grid; grid-template-columns:1fr 1fr 1fr; justify-items: center;}
+nav .NavBox {font-size:17px;}
+
+.Home{position:relative;}
+
+.Home a{color:rgb(162, 39, 162); font-weight:bold; }
+.Home a:hover{zoom:105%; background:none;}
+nav .Home img{
+    border:none;
+    position:absolute;
+    top:-2px;
+    left:-15px;
+    width:50%;
+    z-index:-1;
+}
+header .PageTitle {font-size:35px; text-align:center; color:rgb(63, 216, 211); font-style:oblique;}
+
+.GridContainer{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr; 
+    width:75%;
+    margin:0 auto 0 auto;
+}
+
+.GridBox {background-image:-webkit-linear-gradient(top right, rgb(0, 21, 255), white);   
+    border:1.5px dotted black;
+    border-radius:15px;
+}
+.GridBox img{
+    width:20%; float:left;
+    border:none;
+}
+
+.GridBox span{
+    color:purple;
+    font-weight:bold;
+}

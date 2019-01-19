@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(to left top, rgba(255, 166, 0, 0.51), rgba(131, 82, 9, 0.762)) fixed;
+  }
+  
+body img{
+    border:1.3px solid rgb(90, 84, 84);
+}
+nav a {text-decoration:none; opacity:.8; color:rgb(136, 118, 18); padding:20px 20px 10px 20px; border-radius:15px;}
+nav a:hover {font-weight:bold; opacity:1; background:rgb(23, 102, 129);}
+nav .NavGrid {display:grid; grid-template-columns:1fr 1fr 1fr; justify-items: center;}
+nav .NavBox {font-size:17px;}
+
+header .PageTitle {font-size:35px; text-align:center; color:green; font-style:oblique;}
+
+section-1 .TopGrid{    width:90%;    margin:10px auto 0 auto;    display:grid;
+    grid-template-areas:
+    "A1 A1 A2"
+    "A1 A1 B1"; 
+    grid-gap:25px;
+}
+
+section-1 .TopGrid img{
+    width:100%;
+    border-radius:15px;
+}
+.TopLeft{
+    grid-area:A1;
+
+}
+
+.TopRight1{grid-area:A2; margin: 0 0 12.5px 0; }
+
+.TopRight2{grid-area:B1;}
+
+.MidGrid{ width:85%;    margin:0 auto 0 auto;    display:grid;    grid-template-columns:1fr 1.3fr 1fr;
+    justify-items: center; grid-gap:15px;}
+
+.MidGrid .MTitle{margin:0; font-style:oblique; text-align:center; font-size:17px; font-weight:bold; color:rgb(95, 5, 5);; }
+
+.MidRow img{
+    width:87%;
+    border-radius:5px;
+}
+
+.MidRow{
+    display:grid;
+    grid-template-rows:.1fr 1fr 1fr;
+    justify-items:center;
+    grid-gap:15px;
+}
+
+.MidFirst{
+    border-top:2.5px solid rgb(153, 69, 80);
+}
+
+.MidRight p{
+    text-align:left;
+}
+
+footer p{
+    text-align:center;
+    background: linear-gradient(bottom, blue, rgb(128, 125, 125)); 
+    opacity:.5;
+}
+
+.MidText{
+    margin:25px auto 0 auto;
+}
+
+.MidText p{
+    text-align:center;
+    font-size:14px;
+    text-decoration:none;
+    font-style:none;
+    color:rgb(177, 21, 21);
+}
+.MidText2 p{
+    text-align:center;
+    font-size:14px;
+    text-decoration:none;
+    font-style:none;
+    color:rgb(121, 16, 16);
+}
+
+section-3{
+    margin:0;
+}
+
+section-3 .{
+    position:relative;
+    width:80%;
+    margin:0 auto 0 auto;
+}
+
+.BTitle{
+    font-size:18px;
+    font-style:oblique;
+    font-weight:bold;
+    transform:rotate(-5deg);
+    position:absolute;
+    top:-40px;
+    left:50%;
+ }
+
+.BTitle p{
+    position:relative;
+    left: -50%;
+}
+.ArtContainer{
+    position:relative;
+    width:70%;
+    margin:35px auto 0 auto;
+}
+
+.ArtPic{
+    width:100%;
+    margin-top:15px;
+    border-radius:5px;
+    border:3px solid grey;
+}
+
+
+section-2 .heading{
+    font-size:17px;
+    font-style:oblique;
+}
